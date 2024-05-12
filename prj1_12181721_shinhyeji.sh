@@ -4,7 +4,7 @@ menu() {
 	echo ""
 	echo "[MENU]"
 	echo "1. Get the data of Heung-Min Son's Current Club, Appearances, Goals, Assists in players.csv"
-	echo "2. Get the team data to enter a league position in temas.csv"
+	echo "2. Get the team data to enter a league position in teams.csv"
 	echo "3. Get the Top-3 Attendance mathces in mateches.csv"
 	echo "4. Get the team's league position and team's top scorer in teams.csv & players.csv"
 	echo "5. Get the modified format of data_GMT in matches.csv"
@@ -39,9 +39,24 @@ opt3() {
     fi
 }
 
-echo "************OSS1 - Project1************"
-echo "* StudentID : 12181721 *"
-echo "* Name : Hyeji Shin *"
+opt4() {
+    echo ""
+}
+
+opt5() {
+	echo ""
+}
+
+opt6() {
+	echo ""
+}
+
+
+
+
+echo "*************OSS1 - Project1*************"
+echo "*         StudentID : 12181721          *"
+echo "*           Name : Hyeji Shin           *"
 echo "*****************************************"
 
 while true; do
